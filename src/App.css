@@ -1,0 +1,20 @@
+/* App.css */
+.navbar {
+    position: relative; /* Ensure the pseudo-element is positioned relative to this */
+}
+
+.navbar-border {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px; /* Height of the bottom border */
+    background-image: linear-gradient(to right, #FEA901 33.3%, #2F77FC 66.6%);
+}
+.gradient-text {
+    background: linear-gradient(to right, #FE6151, #FEA901,#2F77FC);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
